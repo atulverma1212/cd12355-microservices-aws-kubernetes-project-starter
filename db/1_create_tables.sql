@@ -6,6 +6,7 @@ CREATE TABLE users
      joined_at  TIMESTAMP NOT NULL,
      is_active  BOOLEAN DEFAULT true NOT NULL
   );
+  
 
 CREATE INDEX users_is_active_index
   ON users (is_active);
